@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="ToastyDialog" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Toast</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="spinner_text">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/list_selector_focused</item>
+    </style>
+    <style name="prev_next_button">
+        <item name="android:background">@drawable/prev_button</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

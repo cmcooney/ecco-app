@@ -1,0 +1,169 @@
+.highlight {
+    color: #EF4500;
+    font-weight: 400;
+}
+body {
+}
+s {
+    text-decoration: none;
+}
+l {
+    display: block;
+}
+
+note {
+       display: none;
+       position: absolute;
+       padding: 5px;
+       border: 1px solid #000;
+       z-index: 50;
+       background: #eee;
+       width: 90%;
+       left:0;
+       font-weight: normal;
+}
+.note {
+       vertical-align: super;
+       font-size: .8em;
+       color: cadetblue;
+}
+
+l::before {
+    content:attr(n) "\0020\0020\0020";
+    font-family: 'Droid Sans Mono', sans-serif;
+    color: #bababa;
+    font-size: .7em;
+}
+l[type="split"]::before {
+    content: "";
+}
+w::before {
+    margin:0;padding:0;float:left;
+}
+br {
+    content: " ";
+    display: block;
+}
+castitem::after {
+    content:"\A";
+    white-space:pre;
+}
+castlist>castitem:first-of-type::before {
+    content:"\A";
+    white-space:pre;
+}
+castgroup::before {
+    content:"\A";
+    white-space:pre;
+}
+b.headword {
+    font-weight: 700 !important;
+    font-size: 130%;
+}
+b.headword::before {
+    content:"\A";
+    white-space:pre;
+}
+lb {
+    display: block;
+}
+
+lb[type="hyphenInWord"] {
+
+    display: inline;
+
+}
+
+gap desc {
+       display: none;
+}
+
+gap::after {
+       content: "*";
+}
+
+hi {
+       font-style: italic;
+       font-variant: small-caps;
+}
+
+sp lb:first-of-type {
+    content: "";
+    white-space: normal;
+}
+sp {
+    display: block;
+}
+sp::before {
+    content:"\A";
+    white-space:pre;
+}
+stage+sp:nth-of-type(n+2)::before {
+    content: "";
+}
+fw, join {
+    display: none;
+}
+speaker+stage::before {
+    content: "";
+    white-space: normal;
+}
+stage {
+    font-style: italic;
+}
+stage::after {
+    content:"\A";
+    white-space:pre;
+}
+div1 div2::before {
+    content:"\A";
+    white-space:pre;
+}
+speaker {
+    font-weight: 700;
+}
+pb {
+    display: none;
+}
+
+pn {
+    font-variant: small-caps;
+}
+
+.freq_result {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:large;
+    text-indent: 1em;
+}
+.freq_count{
+    font-variant: small-caps;
+    text-indent: 2em;
+}
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size:130%;
+    text-style: bold;
+}
+
+.toc-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:large;
+}
+
+.toc-div1 {
+    text-indent: 1em;
+    font-size:large;
+}
+.toc-div2 {
+    text-indent: 2em;
+    font-size:large;
+}
+
+.toc-div3 {
+    text-indent: 3em;
+    font-size:large;
+}

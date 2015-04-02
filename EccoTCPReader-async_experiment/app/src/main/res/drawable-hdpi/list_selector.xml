@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- http://stackoverflow.com/questions/3558934/
+android-entire-listview-changes-color-on-focus-not-just-listview-child-item/10490435#10490435 -->
+
+<item
+      android:state_pressed="true"
+      android:drawable="@drawable/list_selector_focused"
+    />
+    
+</selector>
