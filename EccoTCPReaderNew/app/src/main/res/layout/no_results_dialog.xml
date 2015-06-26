@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/no_results_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <Button android:id="@+id/no_results_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical|none"
+        android:scrollbarStyle="outsideOverlay"
+        android:text="@string/no_results"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@android:drawable/title_bar"
+        android:gravity="center"
+        android:padding="5dp"
+        />
+</LinearLayout>

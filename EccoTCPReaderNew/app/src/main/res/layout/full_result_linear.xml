@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/full_res_linear"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--
+    <LinearLayout
+        android:id="@+id/full_text_ll"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:gravity="top">
+        <WebView
+            android:id="@+id/full_wv_text_result"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="true"
+            android:fastScrollEnabled="true"
+            />
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:id="@+id/button_ll"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+                <ImageButton
+                    android:id="@+id/ll_previous"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_previous_item"
+                    android:gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ll_next"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_action_next_item"
+                    android:gravity="right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="15dp"
+                    />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/full_text_title_ll"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/full_text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="-30dp"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/full_text_ll"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top"
+        >
+
+        <WebView
+            android:id="@+id/full_wv_text_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp"
+            android:layout_marginLeft="5dp"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="true"
+            android:fastScrollEnabled="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

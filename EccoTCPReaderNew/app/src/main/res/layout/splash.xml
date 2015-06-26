@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+ <!--
+    <LinearLayout
+        android:id="@+id/begin_button_ll"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/begin"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="@string/begin"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+    </LinearLayout>
+
+-->
+
+    <LinearLayout
+        android:id="@+id/welcome_page_ll"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top"
+        >
+
+        <WebView
+            android:id="@+id/home_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </WebView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

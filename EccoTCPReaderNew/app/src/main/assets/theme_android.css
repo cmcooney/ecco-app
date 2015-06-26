@@ -1,0 +1,58 @@
+@font-face {
+
+font-family: 'Didot';
+src: url('file:///android_asset/GalSILR.ttf');
+
+}
+
+body { 
+	font-family: 'Didot',serif;
+	font-size:14pt;
+    color: blue;
+}
+
+pre {
+	font-family: 'Didot',serif; 
+	font-size: 14pt;
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+}
+
+div {
+    clear:both; 
+}
+
+div.leftcolumn 
+{ 
+	font-family: HelveticaNeue; 
+	font-weight: bold; 
+	font-size: 10pt; 
+	float: left; 
+	width: 5%; 
+	text-align: right; 
+} 
+
+a.pageref { 
+	color: gray; 
+	text-decoration: none; 
+} 
+
+div.rightcolumn { 
+	float: right; 
+	width: 90%; 
+} 
+
+div.p { 
+	margin-bottom: 8pt; 
+} 
+
+span.smallcaps {
+	font-variant: small-caps;
+}
+
+pn {
+    font-weight: bold;
+}
+
+l {
+    display:block;
+}

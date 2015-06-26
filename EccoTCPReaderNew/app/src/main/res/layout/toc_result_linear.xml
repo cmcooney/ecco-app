@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toc_res_linear"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--
+    <LinearLayout
+        android:id="@+id/full_text_ll"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:gravity="top">
+        <WebView
+            android:id="@+id/full_wv_text_result"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="true"
+            android:fastScrollEnabled="true"
+            />
+    </LinearLayout>
+    -->
+
+        <WebView
+            android:id="@+id/toc_wv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollingCache="true"
+            android:fastScrollEnabled="true"
+            />
+
+</LinearLayout>

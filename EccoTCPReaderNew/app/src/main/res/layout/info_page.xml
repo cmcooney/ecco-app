@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/info_page"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+
+    android:padding="5dp">
+
+    <!--
+    <Button android:id="@+id/info_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical|none"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@android:drawable/title_bar"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:padding="5dp"
+        android:gravity="left"
+        />
+    -->
+    <WebView
+        android:id="@+id/info_wv"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        >
+    </WebView>
+
+</LinearLayout>
